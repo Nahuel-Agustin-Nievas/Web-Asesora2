@@ -30,7 +30,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 header ul{
     position: relative;
@@ -71,13 +71,14 @@ header.abajo ul li a{
 #logo{
 
     padding-right: 20px;
-    position: relative;
+    position: sticky;
     font-family: helvetica;
     margin: 0 15px;
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: 600;
     transition: 0.7s;
+    padding-top: 4px;
 
 }
 
@@ -120,11 +121,70 @@ header.abajo ul li a{
 
     .header .navbar{
         background-color: transparent !important;
-        display: flex;
+        display: inline;
         text-align: center;
         justify-content: center;
         align-items: center;
         
     }
+
+    /* #logo{
+
+        font-size: 20px;
+    
+    } */
+
+    #hamburguer{ 
+        /* display: block; */
+        /* margin-left: -30% !important;
+        width: 200% !important; */
+        /* position: relative; */
+        box-sizing: unset;
+
+    }
+
+
+
 }
+
+
+@media (max-width: 633px) { 
+
+
+    #logo{
+        display: block;
+
+        font-size: 24px;
+        margin-left: 10px;
+        padding-left: 3px !important;
+        width: 155% !important;
+        margin-right: -30% !important;
+    
+    }
+
+    #imglogo {
+
+        width: 26px;
+        height: 26px;
+        
+    }
+
+
+    #hamburger{ 
+        position: static;
+        
+        /* margin-left: -30% !important;
+        width: 200% !important; */
+        
+        
+
+    }
+  
+.navbar-collapse{
+    
+}
+
+
+}
+
 
