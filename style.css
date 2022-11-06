@@ -167,6 +167,83 @@ header.abajo ul li a{
 
 
 
+/* estilos div3 */
+
+
+#imglogo{
+
+  color: rgba(252,189,145,255);
+}
+
+#image2{
+
+  padding-right: 5rem;
+}
+
+
+.accordion-button:not(.collapsed){
+  background-color: rgba(252,189,145,255);
+  color: white;
+  font-weight: bold;
+}
+
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0 rgba(252,189,145,255);
+  box-shadow: 0 0 0 0 rgba(252,189,145,255); 
+}
+
+#questiontittle{
+
+  font-size: 3rem;
+}
+
+/* 
+#button1{
+  background-color: rgba(252,189,145,255);
+  color: #fff;
+  border: none;
+} */
+
+#button1 {
+  background: #fff; /* color de fondo */
+  color: black; /* color de fuente */
+  /*border: 2px solid ;  tamaño y color de borde */
+  padding: 16px 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  border: none;
+}
+#button1:hover {
+  color: #fff; /* color de fuente hover */
+}
+#button1::after {
+  content: "";
+  background: rgba(252,189,145,255); /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+#button1:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
 
 
 /* ---------------------- estilos del main -------------- */
@@ -288,7 +365,12 @@ header.abajo ul li a{
   
 }
 
+@media (max-width: 763px) { 
+#image2{
 
+  padding-right: 0rem;
+}
+}
 @media (max-width: 633px) { 
 
 
