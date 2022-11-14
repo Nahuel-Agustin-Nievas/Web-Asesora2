@@ -208,23 +208,24 @@ header.abajo ul li a{
   border: none;
 } */
 
-#button1 {
-  background: #fff; /* color de fondo */
-  color: black; /* color de fuente */
-  /*border: 2px solid ;  tamaño y color de borde */
+#button2 {
+  background: rgba(252,189,145,255); /* color de fondo */
+  color:#fff; /* color de fuente */
+  border: 2px solid ; 
   padding: 16px 20px;
   position: relative;
   z-index: 1;
   overflow: hidden;
   display: inline-block;
-  border: none;
+  border-color: #fff;
+  border-radius: 30px;
 }
-#button1:hover {
-  color: #fff; /* color de fuente hover */
+#button2:hover {
+  color:rgba(252,189,145,255); /* color de fuente hover */
 }
-#button1::after {
+#button2::after {
   content: "";
-  background: rgba(252,189,145,255); /* color de fondo hover */
+  background: #fff ; /* color de fondo hover */
   position: absolute;
   z-index: -1;
   padding: 16px 20px;
@@ -236,7 +237,7 @@ header.abajo ul li a{
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
 }
-#button1:hover::after {
+#button2:hover::after {
   left: 0;
   right: 0;
   top: 0;
@@ -389,6 +390,57 @@ header.abajo ul li a{
 
 
 }
+
+
+
+/* --------estilos footer-------- */
+
+
+#footer_separator{
+
+  background-color: rgba(252,189,145,255);
+}
+
+#button1 {
+  background: #fff; /* color de fondo */
+  color: black; /* color de fuente */
+  /*border: 2px solid ;  tamaño y color de borde */
+  padding: 16px 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  border: none;
+}
+#button1:hover {
+  color: #fff; /* color de fuente hover */
+}
+#button1::after {
+  content: "";
+  background: rgba(252,189,145,255); /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  right: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+#button1:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+
+
+
 
 /* @media (max-width: 767px)
 { #image1 {
