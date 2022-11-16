@@ -3,6 +3,7 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("abajo",window.scrollY>0);
 })
 
+
 // $(document).ready(function(){
 //     $(document).click(
 //       function(){

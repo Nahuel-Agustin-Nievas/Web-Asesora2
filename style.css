@@ -442,7 +442,7 @@ header.abajo ul li a{
 
 
 .site-footer {
-  background: #efefef;
+  background:#fff;
   font-size: 14px;
   color: #888;
   padding: 70px 0; }
@@ -482,7 +482,7 @@ header.abajo ul li a{
         display: none; }
       .site-footer .social li a > span {
         position: absolute;
-        top: 50%;
+        top: 43%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -493,7 +493,11 @@ header.abajo ul li a{
 
 
 
+#instagram{
 
+  justify-content: center;
+  align-items: center;
+}
 /* @media (max-width: 767px)
 { #image1 {
     position: relative;
