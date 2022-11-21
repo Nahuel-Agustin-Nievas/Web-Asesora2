@@ -107,6 +107,8 @@ header.abajo ul li a{
     transition: 0.7s;
     padding-top: 4px;
     
+    
+    
 
 }
 
@@ -168,12 +170,6 @@ header.abajo ul li a{
 
 
 /* estilos div3 */
-
-
-#imglogo{
-
-  color: rgba(245,119,70,255);
-}
 
 #image2{
 
@@ -350,10 +346,9 @@ header.abajo ul li a{
 
   width: 26px;
   height: 26px;
-  margin-left: 15px;
-  
-  
+  margin-left: 15px;  
 }
+
 
 
 #karina{
