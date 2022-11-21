@@ -26,25 +26,73 @@ window.addEventListener("scroll", function(){
 
 
 
+
   function sendMail(){
+    
+      var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        msg: document.getElementById("msg").value,
+        
+      };
+  
+  const serviceID = "service_j54fxnl";
+  const templateID = "template_zcmn47c";
+  const msgenviado = document.getElementById("msgenviado");
+  
+  emailjs.send(serviceID, templateID, params)
+  .then(
+    res =>{
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("msg").value = "";
+      console.log(res);
+      msgenviado.style.display = 'block';
+      
+    })
+   
+  .catch(err=>console.log(err));
+    }
 
-    var params = {
-      name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
-      msg: document.getElementById("msg").value,
-    };
 
-const serviceID = "service_j54fxnl";
-const templateID = "template_zcmn47c";
+  document.addEventListener("DOMContentLoaded", function () {
+    document
+      .getElementById("form")
+      .addEventListener("submit", validarFormulario);
+  });
+  
+  function validarFormulario(evento) {
+    evento.preventDefault();
+    let nombre = document.getElementById("name").value;
+    if (nombre.length == 0) {
+      alert('Por favor complete el campo "Nombre"');
+      return;
+    }
+  
+    let email = document.getElementById("email").value;
+    if (email.indexOf("@") == -1 || email.indexOf(".") == -1) {
+      alert("Debe dejar un mail válido");
+      return;
+    }
+  
+    let comentario = document.getElementById("msg").value;
+    if (comentario.length < 6) {
+      alert("Debe dejar un comentario");
+      return;
+    }
+  
+    // this.submit();
 
-emailjs.send(serviceID, templateID, params)
-.then(
-  res =>{
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("msg").value = "";
-    console.log(res);
-    alert("You Message sent successfully");
-  })
-.catch(err=>console.log(err));
+    sendMail();
+
+  
+  
+    
   }
+
+
+
+
+
+
+
