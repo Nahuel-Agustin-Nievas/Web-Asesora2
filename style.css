@@ -411,6 +411,7 @@ header.abajo ul li a{
   overflow: hidden;
   display: inline-block;
   border: none;
+  border-radius: 30px;
 }
 #button1:hover {
   color: #fff; /* color de fuente hover */
