@@ -313,6 +313,11 @@ header.abajo ul li a{
   background-position:center;
 }
 
+#h1n1{
+
+  padding-top: 40px;
+}
+
 #divn1 {
   color: white;
 }
@@ -403,7 +408,7 @@ header.abajo ul li a{
 
 #button1 {
   background: #fff; /* color de fondo */
-  color: black; /* color de fuente */
+  color: rgba(245,119,70,255); /* color de fuente */
   /*border: 2px solid ;  tamaño y color de borde */
   padding: 16px 20px;
   position: relative;
@@ -414,7 +419,7 @@ header.abajo ul li a{
   border-radius: 30px;
 }
 #button1:hover {
-  color: #fff; /* color de fuente hover */
+  color: #fff /* color de fuente hover */
   
 }
 #button1::after {
@@ -424,6 +429,7 @@ header.abajo ul li a{
   z-index: -1;
   padding: 16px 20px;
   display: block;
+  border: none;
   top: 0;
   bottom: 0;
   left: -100%;
