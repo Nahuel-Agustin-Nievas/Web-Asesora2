@@ -407,29 +407,36 @@ header.abajo ul li a{
 }
 
 #button1 {
-  background: #fff; /* color de fondo */
-  color: rgba(245,119,70,255); /* color de fuente */
-  /*border: 2px solid ;  tamaño y color de borde */
+  background: rgba(245,119,70,255); /* color de fondo */
+  border-color: rgba(245,119,70,255);
+  color: #fff; /* color de fuente */
   padding: 16px 20px;
   position: relative;
   z-index: 1;
   overflow: hidden;
   display: inline-block;
-  border: none;
   border-radius: 30px;
+
 }
-#button1:hover {
-  color: #fff /* color de fuente hover */
+
+#button1:hover{
+
+  border-color: #fff;
+  border-collapse: initial;
+  }
+
+
+/* #button1:hover {
+   color: #fff color de fuente hover  */
   
-}
-#button1::after {
+
+/* #button1::after {
   content: "";
-  background: rgba(245,119,70,255); /* color de fondo hover */
+  background: rgba(245,119,70,255); color de fondo hover
   position: absolute;
   z-index: -1;
   padding: 16px 20px;
   display: block;
-  border: none;
   top: 0;
   bottom: 0;
   left: -100%;
@@ -437,14 +444,16 @@ header.abajo ul li a{
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
 }
+
 #button1:hover::after {
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
+  border: 2px solid;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-}
+} */
 
 
 
@@ -896,3 +905,98 @@ rgba(245,119,70,255) */
     }
   }
   
+
+
+/* ----------------estilos items------------------------------------------------ */
+
+
+
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+  align-content: center;
+}
+.section-title{
+  text-align: center;
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.border{
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  /* max-width: 33.33%; */
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid rgba(245,119,70,255);
+  color: rgba(245,119,70,255);
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+  border-radius: 40px;
+}
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.service-box:hover .service-icon{
+  background: rgba(245,119,70,255);
+  color:#fff;
+}
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-desc{
+  font-size: 14px;
+}
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
+
+
+#inner{
+  justify-content: space-between !important;
+  align-content: space-between;
+  align-items: center;
+
+}
