@@ -916,12 +916,14 @@ rgba(245,119,70,255) */
   max-width: 1200px;
   margin: auto;
   padding: 0 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   overflow: hidden;
   align-content: center;
 }
 .section-title{
   text-align: center;
-  color: #ddd;
+  color: black;
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -941,8 +943,8 @@ rgba(245,119,70,255) */
   /* max-width: 33.33%; */
   padding: 10px;
   text-align: center;
-  color: #ddd;
-  cursor: pointer;
+  color: black;
+  /* cursor: pointer; */
 }
 
 .service-icon{
@@ -1019,11 +1021,11 @@ rgba(245,119,70,255) */
   width: 55%;
   float: right;
   background-color: #fdfdfd;
-  padding: 150px;
+  padding: 125px;
 }
 
 .inner-container2 h1{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 30px;
   font-weight: 900;
 }
@@ -1033,7 +1035,7 @@ rgba(245,119,70,255) */
   color: #545454;
   line-height: 30px;
   text-align: justify;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .skills2{
@@ -1043,13 +1045,13 @@ rgba(245,119,70,255) */
   font-size: 13px;
 }
 
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
   .inner-container2{
       padding: 80px;
   }
-}
+} */
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
   .about-section2{
       background-size: 100%;
       padding: 100px 40px;
@@ -1066,4 +1068,44 @@ rgba(245,119,70,255) */
   .inner-container2{
       padding: 60px;
   }
+}
+
+
+/* ----------estilos pricing----------- */
+
+
+#price{
+background-color: rgba(245,119,70,255);
+color: #fff;
+font-size: 60px;
+font-weight: bold;
+display: flex;
+align-items: center;
+
+
+
+
+
+}
+
+#buttonprice{
+
+  align-items: center;
+  size: 50px;
+  
+}
+
+p i{
+
+  font-size: 40px;
+  color:  rgba(245,119,70,255);
+  vertical-align: middle;
+ 
+
+}
+
+
+#listafinal{
+  font-size: 20px;
+ 
 }
