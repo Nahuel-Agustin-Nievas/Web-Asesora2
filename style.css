@@ -1090,7 +1090,7 @@ align-items: center;
 
 #buttonprice{
 
-  align-items: center;
+  /* align-items: center; */
   size: 50px;
   
 }
@@ -1109,3 +1109,463 @@ p i{
   font-size: 20px;
  
 }
+
+
+
+
+/* estilos princin2------------------ */
+
+
+.demo
+{
+	padding: 50px 0;
+}
+.heading-title
+{
+	margin-bottom: 50px;
+}
+
+.pricingTable{
+    border: 2px solid #e3e3e3;
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+    transform: translateZ(0px);
+}
+
+.pricingTable:before,
+.pricingTable:after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+
+.pricingTable:before{
+    border-right: 2px solid rgba(245,119,70,255);
+    border-left: 2px solid rgba(245,119,70,255);
+    transform: scaleY(0);
+    transform-origin: 100% 0 0;
+}
+
+.pricingTable:after{
+    border-bottom: 2px solid rgba(245,119,70,255);
+    border-top: 2px solid rgba(245,119,70,255);
+    transform: scaleX(0);
+    transform-origin: 0 100% 0;
+}
+
+.pricingTable:hover:before{
+    transform: scaleY(1);
+}
+
+.pricingTable:hover:after{
+    transform: scaleX(1);
+}
+
+.pricingTable .pricingTable-header{
+    background: rgba(245,119,70,255);
+    color: #fff;
+    margin: -2px -2px 35px;
+    padding: 40px 0;
+}
+
+.pricingTable .heading{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.pricingTable .subtitle{
+    font-size: 30px;
+    display: block;
+}
+
+.pricingTable .price-value{
+    font-size: 72px;
+    font-weight: 600;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.pricingTable .currency{
+    font-size: 45px;
+    font-weight: normal;
+    position: absolute;
+    top: 2px;
+    left: -30px;
+}
+
+.pricingTable .month{
+    font-size: 20px;
+    position: absolute;
+    bottom: 17px;
+    right: -40px;
+}
+
+.pricingTable .pricing-content{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    
+}
+
+/* .pricingTable .pricing-content p i{
+    font-size: 16px;
+    color: #7a7e82;
+    line-height: 40px;
+    
+} */
+
+.pricingTable .read{
+    display: inline-block;
+    border: 2px solid #7a7e82;
+    border-right: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #7a7e82;
+    padding: 9px 30px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.pricingTable .read:hover{
+    border-color: #08c6aa;
+    color: #08c6aa;
+}
+
+.pricingTable .read i{
+    font-size: 19px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transition: all 0.3s ease 0s;
+}
+
+.pricingTable .read:hover i{
+    right: 5px;
+}
+
+.pricingTable .read:before,
+.pricingTable .read:after{
+    content: "";
+    display: block;
+    height: 30px;
+    border-left: 2px solid #7a7e82;
+    position: absolute;
+    right: -11px;
+    transition: all 0.3s ease 0s;
+}
+
+.pricingTable .read:before{
+    bottom: -6px;
+    transform: rotate(45deg);
+}
+
+.pricingTable .read:after{
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+.pricingTable .read:hover:before,
+.pricingTable .read:hover:after{
+    border-left-color: #08c6aa;
+}
+
+@media screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 25px; }
+}
+
+
+
+
+/* princing3------------------ */
+
+
+
+
+
+
+h1.demo-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #2A293E;
+  letter-spacing: 2px;
+}
+
+
+.pricing-table {
+  display: flex;
+  /* flex-flow: row wrap; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.pricing-table .ptable-item {
+  width: 40.33%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .pricing-table .ptable-item {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-table .ptable-item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .pricing-table .ptable-item {
+    width: 100%;
+  }
+}
+
+.pricing-table .ptable-single {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.pricing-table .ptable-header,
+.pricing-table .ptable-body,
+.pricing-table .ptable-footer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* .pricing-table .ptable-status ,
+.pricing-table .ptable-title,
+.pricing-table .ptable-price,
+.pricing-table .ptable-description,
+.pricing-table .ptable-action {
+  position: relative;
+  width: 100%;
+  text-align: center;
+} */
+
+.pricing-table .ptable-single {
+  background: #f6f8fa;
+}
+
+/* .pricing-table .ptable-single:hover {
+  box-shadow: 0 0 10px #999999;
+} */
+
+.pricing-table .ptable-header {
+  margin: 0 30px;
+  padding: 30px 0 45px 0;
+  width: auto;
+  background: #2A293E;
+}
+
+.pricing-table .ptable-header::before,
+.pricing-table .ptable-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid #f6f8fa;
+}
+
+.pricing-table .ptable-header::before {
+  right: 50%;
+  border-right: 250px solid transparent;
+}
+
+.pricing-table .ptable-header::after {
+  left: 50%;
+  border-left: 250px solid transparent;
+}
+
+.pricing-table .ptable-item.featured-item .ptable-header {
+  background: rgba(245,119,70,255);
+}
+
+/* .pricing-table .ptable-status {
+  margin-top: -30px;
+} */
+
+/* .pricing-table .ptable-status span {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  padding: 5px 0;
+  text-align: center;
+  color: rgba(245,119,70,255);
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  background: #2A293E;
+} */
+
+/* .pricing-table .ptable-status span::before,
+.pricing-table .ptable-status span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid rgba(245,119,70,255);
+} */
+
+.pricing-table .ptable-status span::before {
+  right: 50%;
+  border-right: 25px solid transparent;
+}
+
+.pricing-table .ptable-status span::after {
+  left: 50%;
+  border-left: 25px solid transparent;
+}
+
+.pricing-table .ptable-title h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.pricing-table .ptable-price h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.pricing-table .ptable-price h2 small {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 16px;
+  margin-left: -15px;
+}
+
+.pricing-table .ptable-price h2 span {
+  margin-left: 3px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing-table .ptable-body {
+  padding: 20px 0;
+}
+
+.pricing-table .ptable-description ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pricing-table .ptable-description ul li {
+  color: black !important;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 7px;
+  border-bottom: 1px solid #dedede;
+}
+
+
+
+.pricing-table .ptable-footer {
+  padding-bottom: 30px;
+}
+
+/* .pricing-table .ptable-action a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgba(245,119,70,255);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background: #2A293E;
+} */
+
+/* .pricing-table .ptable-action a:hover {
+  color: #2A293E;
+  background: rgba(245,119,70,255);
+} */
+/* 
+.pricing-table .ptable-item.featured-item .ptable-action a {
+  color: #2A293E;
+  background: rgba(245,119,70,255);
+}
+
+.pricing-table .ptable-item.featured-item .ptable-action a:hover {
+  color: rgba(245,119,70,255);
+  background: #2A293E;
+} */
+
+
+
+
+/* button pricing3 */
+
+
+
+.style-3{
+	font-weight: 600;
+	border: solid 2px black;
+	outline: 0;
+	padding: 1rem 4rem;
+	font-size: 1.5rem;
+	letter-spacing: 0.08rem;
+	background-color: white;
+	border-radius: 0.35rem;
+	position: relative;
+	cursor: pointer;
+  }
+
+  .style-3::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: pink;
+	z-index: -1;
+	border-radius: 0.35rem;
+	border: solid 2px black;
+	transition: all 0.3s ease-in-out;
+  }
+  
+
+ .style-3::after {
+	border: 0;
+	box-shadow: 0px 0px 0px 2px black;
+	top: 0.5rem;
+	left: 0.5rem;
+  }
+ .style-3:hover::after {
+	top: -0.5rem;
+	left: -0.5rem;
+	width: calc(100% + 0.5rem * 2);
+	height: calc(100% + 0.5rem * 2);
+  }
+  
