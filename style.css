@@ -1615,3 +1615,21 @@ body {
 	height: calc(100% + 0.5rem * 2);
   }
   
+
+
+
+  
+  /* -------------checkout page--------------- */
+
+
+
+  #paymentback{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 0px !important;
+    
+  }
+
