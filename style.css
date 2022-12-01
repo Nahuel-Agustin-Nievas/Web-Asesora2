@@ -1749,3 +1749,23 @@ html, body{
 .learn-more:hover .button-text {
   color: #fff;
 }
+
+
+
+
+/* -----------privacy page  --------------- */
+
+#privacytext{
+
+  margin-top: 80px;
+  text-align: justify;
+}
+
+
+#privacytext h2{
+
+  align-items: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

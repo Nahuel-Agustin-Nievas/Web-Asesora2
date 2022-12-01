@@ -83,6 +83,10 @@ window.addEventListener("scroll", function(){
   
     // this.submit();
 
+
+    document.getElementById("contactbutton").value = "Enviando...";
+		document.getElementById("contactbutton").disabled = true;
+
     sendMail();
 
   
