@@ -960,7 +960,7 @@ rgba(245,119,70,255) */
   height: 70px;
   border: 3px solid rgba(245,119,70,255);
   color: rgba(245,119,70,255);
-  transform: rotate(45deg);
+  /* transform: rotate(45deg); */
   margin-bottom: 30px;
   margin-top: 16px;
   transition: 0.3s linear;
@@ -968,7 +968,7 @@ rgba(245,119,70,255) */
 }
 .service-icon i{
   line-height: 70px;
-  transform: rotate(-45deg);
+  /* transform: rotate(-45deg); */
   font-size: 26px;
 }
 .service-box:hover .service-icon{
@@ -1015,6 +1015,14 @@ rgba(245,119,70,255) */
 /* estilos servicio completo */
 
 
+
+.about-section1{
+  background: url(IMG/asesora-abajo.jpg) no-repeat left;
+  background-size: 55%;
+  /* background-color: #fdfdfd; */
+  overflow: hidden;
+  padding: 100px 0;
+}
 
 .about-section2{
   background: url(IMG/closet-3615613_1920.jpg) no-repeat left;
@@ -1069,7 +1077,7 @@ rgba(245,119,70,255) */
 }
 
 @media screen and (max-width:1200px){
-  .about-section2, .about-section3{
+  .about-section1, .about-section2, .about-section3{
       background-size: 100%;
       padding: 100px 40px;
   }
@@ -1080,7 +1088,7 @@ rgba(245,119,70,255) */
 }
 
 @media screen and (max-width:600px){
-  .about-section2, .about-section3{
+  .about-section1, .about-section2, .about-section3{
       padding: 0;
   }
   .inner-container2{
