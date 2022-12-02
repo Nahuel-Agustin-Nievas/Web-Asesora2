@@ -1024,6 +1024,16 @@ rgba(245,119,70,255) */
   padding: 100px 0;
 }
 
+
+.about-section3{
+  background: url(IMG/handbag-6146013_1920.jpg) no-repeat left;
+  background-size: 55%;
+  /* background-color: #fdfdfd; */
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+
 .inner-container2{
   width: 55%;
   float: right;
@@ -1052,28 +1062,29 @@ rgba(245,119,70,255) */
   font-size: 13px;
 }
 
-/* @media screen and (max-width:1200px){
+@media screen and (max-width:1200px){
   .inner-container2{
       padding: 80px;
   }
-} */
+}
 
 @media screen and (max-width:1200px){
-  .about-section2{
+  .about-section2, .about-section3{
       background-size: 100%;
       padding: 100px 40px;
   }
   .inner-container2{
       width: 100%;
+     
   }
 }
 
 @media screen and (max-width:600px){
-  .about-section2{
+  .about-section2, .about-section3{
       padding: 0;
   }
   .inner-container2{
-      padding: 60px;
+      padding: 30px;
   }
 }
 
@@ -1759,6 +1770,7 @@ html, body{
 
   margin-top: 80px;
   text-align: justify;
+  
 }
 
 
