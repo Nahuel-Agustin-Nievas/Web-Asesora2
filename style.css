@@ -1376,6 +1376,11 @@ h1.demo-title {
   background: #ffffff;
 }
 
+#pricing3item1{
+
+  width: 80% !important;
+}
+
 .pricing-table .ptable-item {
   width: 40.33%;
   padding: 0 15px;
@@ -1386,7 +1391,11 @@ h1.demo-title {
 
 @media (max-width: 992px) {
   .pricing-table .ptable-item {
-    width: 33.33%;
+    width:  33.33%;
+  }
+  #pricing3item1{
+
+    width: 60% !important;
   }
 }
 
@@ -1394,11 +1403,20 @@ h1.demo-title {
   .pricing-table .ptable-item {
     width: 50%;
   }
+  #pricing3item1{
+
+    width: 88% !important;
+  }
 }
 
 @media (max-width: 576px) {
   .pricing-table .ptable-item {
     width: 100%;
+  }
+
+  #pricing3item1{
+
+    width: 100% !important;
   }
 }
 
