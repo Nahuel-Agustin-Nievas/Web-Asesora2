@@ -1347,6 +1347,7 @@ p i{
     border-radius: 0.35rem;
     position: relative;
     cursor: pointer;
+    text-decoration: none;
     }
 
 }
@@ -1355,8 +1356,11 @@ p i{
 
 /* princing3------------------ */
 
+#buttonprice3{
 
-
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
 
 
 
