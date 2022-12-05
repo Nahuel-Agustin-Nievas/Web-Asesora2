@@ -552,8 +552,12 @@ header.abajo ul li a{
     max-width: 1140px; } }
 
 @media (min-width: 2000px) {
-  .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    max-width: 2000px; } }
+  .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl{
+    max-width: 1140px;
+   
+  
+  
+  } }
 
 
 
