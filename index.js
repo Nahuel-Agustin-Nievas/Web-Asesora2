@@ -4,27 +4,6 @@ window.addEventListener("scroll", function(){
 })
 
 
-// $(document).ready(function(){
-//     $(document).click(
-//       function(){
-//         $("#hamburguer").removeClass("navbar navbar-expand-lg bg-light");
-//       }
-//     );
-//   });
-
-
-
-
-  // // Look for .hamburger
-  // var hamburger = document.querySelector(".hamburger");
-  // // On click
-  // hamburger.addEventListener("click", function() {
-  //   // Toggle class "is-active"
-  //   hamburger.classList.toggle("is-active");
-  //   // Do something else, like open/close menu
-  // });
-
-
 
 
   function sendMail(){
