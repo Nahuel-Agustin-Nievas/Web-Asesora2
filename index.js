@@ -83,7 +83,7 @@ window.addEventListener("scroll", function(){
     autoplay: false,
     slideSpeed:1000,
     items : 3,
-    loop: false,
+    loop: true,
     nav:true,
     navText:['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
     margin: 30,
