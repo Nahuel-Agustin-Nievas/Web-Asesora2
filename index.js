@@ -80,7 +80,7 @@ window.addEventListener("scroll", function(){
 
 
   $(".testmonial_slider_area").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     slideSpeed:1000,
     items : 3,
     loop: true,
