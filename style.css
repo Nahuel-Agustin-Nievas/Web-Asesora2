@@ -733,13 +733,16 @@ rgba(245,119,70,255) */
 
   @media screen and (min-width: 1960px) {
     #top2  {
-  background-image: url(IMG/clothes-1839935_1920grey.jpg);
+  background-image: url(IMG/contacto-asesora-imagen.jpg);
   background-color: gray;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center !important;
+  background-attachment: fixed;
     }
   }
+  
 
+  
 
 
   @media screen and (max-width: 1167px) {
@@ -1045,6 +1048,7 @@ rgba(245,119,70,255) */
 
 
 /* ----------estilos pricing----------- */
+
 
 
 
