@@ -1062,6 +1062,15 @@ rgba(245,119,70,255) */
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (max-width:450px){
+ 
+  #buttonprice3{
+
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+}
 
 
 h1.demo-title {
