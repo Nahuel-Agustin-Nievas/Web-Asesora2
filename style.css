@@ -56,6 +56,25 @@ header ul li a{
 
 
 
+.ms-7 {
+
+  margin-left: 225px;
+  margin-top: -10px;
+  font-size: 15px;
+  letter-spacing: 0.25em;
+}
+
+@media (max-width: 994px) {
+
+  .ms-7 {
+    margin-left: 157px;
+    margin-top: -8px;
+
+
+  }}
+
+
+
 
 /* --------- imagen principal responsive-------------------------------- */
 
@@ -152,7 +171,7 @@ header.abajo ul li a{
 
 
 .accordion-button:not(.collapsed){
-  background-color: rgba(245,119,70,255);
+  background-color: #C33817;
   color: white;
   font-weight: bold;
 }
@@ -162,8 +181,8 @@ header.abajo ul li a{
   z-index: 3;
   border-color: none;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0 rgba(245,119,70,255);
-  box-shadow: 0 0 0 0 rgba(245,119,70,255); 
+  -webkit-box-shadow: 0 0 0 0 #C33817;
+  box-shadow: 0 0 0 0 #C33817; 
 }
 
 #questiontittle{
@@ -175,7 +194,7 @@ header.abajo ul li a{
 
 
 #button2 {
-  background: rgba(245,119,70,255); /* color de fondo */
+  background: #C33817; /* color de fondo */
   color:#fff; /* color de fuente */
   /* border: 2px solid ;  */
   padding: 16px 20px;
@@ -187,7 +206,7 @@ header.abajo ul li a{
   border-radius: 30px;
 }
 #button2:hover {
-  color:rgba(245,119,70,255); /* color de fuente hover */
+  color:#C33817; /* color de fuente hover */
 }
 #button2::after {
   content: "";
@@ -255,6 +274,17 @@ header.abajo ul li a{
         .display-1 {
           font-size: 5rem; } }
 
+
+      /* .display-2 {
+      display: block;
+      font-size: calc(1.5rem + 1.5vw);
+      font-weight: 300;
+      line-height: 1.2;
+    padding-right: 20px; }
+      @media (min-width: 1200px) {
+        .display-1 {
+          font-size: 2rem; } } */
+
     
 
 
@@ -285,7 +315,7 @@ header.abajo ul li a{
 
 #h1n1{
 
-  padding-top: 80px;
+  padding-top: 120px;
 }
 
 #divn1 {
@@ -340,6 +370,8 @@ header.abajo ul li a{
   
 
 }
+
+
   
 }
 
@@ -380,12 +412,12 @@ header.abajo ul li a{
 
 #footer_separator{
 
-  background-color: rgba(245,119,70,255);
+  background-color: #C33817;
 }
 
 #button1 {
-  background: rgba(245,119,70,255); /* color de fondo */
-  border-color: rgba(245,119,70,255);
+  background: #C33817; /* color de fondo */
+  border-color: #C33817;
   color: #fff; /* color de fuente */
   padding: 16px 20px;
   position: relative;
@@ -413,7 +445,7 @@ header.abajo ul li a{
   color: #888;
   padding: 70px 0; }
   .site-footer a {
-    color: #f17945;
+    color: #C33817;
     position: relative;
     display: inline-block; }
   .site-footer .btn:before {
@@ -433,7 +465,7 @@ header.abajo ul li a{
       .site-footer .widget .links li {
         margin-bottom: 10px; }
         .site-footer .widget .links li a {
-          color: #777; }
+          color:#333333; }
   .site-footer .social li {
     display: inline-block; }
     .site-footer .social li a {
@@ -441,7 +473,7 @@ header.abajo ul li a{
       width: 30px;
       height: 30px;
       position: relative;
-      background: #777;
+      background:#333333;
       border-radius: 50%;
       color: #fff; }
       .site-footer .social li a:before {
@@ -454,7 +486,7 @@ header.abajo ul li a{
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
       .site-footer .social li a:hover {
-        background: rgb(245,119,70,255);
+        background: #C33817;
         color: #fff; }
 
 
@@ -515,7 +547,7 @@ pestaña contacto  */
   float: left;
   width: 44px;
   height: 44px;
-  background: #f17945;
+  background: #C33817;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -693,7 +725,7 @@ pestaña contacto  */
 
 
 #contactbutton{
-  background-color: rgba(245,119,70,255); /* color de fondo */
+  background-color: #C33817; /* color de fondo */
   color:#fff; /* color de fuente */
   /* border: 2px solid ;  */
   padding: 16px 20px;
@@ -701,7 +733,7 @@ pestaña contacto  */
   z-index: 1;
   overflow: hidden;
   display: inline-block;
-  border-color: rgba(245,119,70,255);
+  border-color: #C33817;
   border-radius: 30px;
 }
 
@@ -715,7 +747,7 @@ border-collapse: initial;
 
 /* color de antes-------------------------
 
-rgba(245,119,70,255) */
+#C33817 */
 
 
 #divn7{
@@ -782,7 +814,7 @@ rgba(245,119,70,255) */
   .box-area h5 {
     font-size: 16px;
     font-weight: 700;
-    color: rgba(245,119,70,255);
+    color: #C33817;
     margin-top: 30px;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -822,7 +854,7 @@ rgba(245,119,70,255) */
   }
   .socials i {
     margin: 0 10px;
-    color: rgba(245,119,70,255);
+    color: #C33817;
     font-size: 18px;
   }
   #testimonial_area .owl-nav {
@@ -834,7 +866,7 @@ rgba(245,119,70,255) */
     width: 40px;
     height: 40px;
     line-height: 40px;
-    color: rgba(245,119,70,255);
+    color: #C33817;
     border-radius: 50%;
     text-align: center;
     background: #fff;
@@ -908,8 +940,8 @@ rgba(245,119,70,255) */
   display: inline-block;
   width: 70px;
   height: 70px;
-  border: 3px solid rgba(245,119,70,255);
-  color: rgba(245,119,70,255);
+  border: 3px solid #C33817;
+  color: #C33817;
   /* transform: rotate(45deg); */
   margin-bottom: 30px;
   margin-top: 16px;
@@ -922,7 +954,7 @@ rgba(245,119,70,255) */
   font-size: 26px;
 }
 .service-box:hover .service-icon{
-  background: rgba(245,119,70,255);
+  background: #C33817;
   color:#fff;
 }
 .service-title{
@@ -967,7 +999,7 @@ rgba(245,119,70,255) */
 
 
 .about-section1{
-  background: url(IMG/asesora-abajo.jpg) no-repeat left;
+  background: url(IMG/asesora-imagen-abajo.jpg) no-repeat left;
   background-size: 55%;
   /* background-color: #fdfdfd; */
   overflow: hidden;
@@ -975,7 +1007,7 @@ rgba(245,119,70,255) */
 }
 
 .about-section2{
-  background: url(IMG/closet-analisis-armario.jpg) no-repeat left;
+  background: url(IMG/armario-capsula-abajo.jpg) no-repeat left;
   background-size: 55%;
   /* background-color: #fdfdfd; */
   overflow: hidden;
@@ -1198,7 +1230,7 @@ h1.demo-title {
 }
 
 .pricing-table .ptable-item.featured-item .ptable-header {
-  background: rgba(245,119,70,255);
+  background: #C33817;
 }
 
 /* .pricing-table .ptable-status {
@@ -1212,7 +1244,7 @@ h1.demo-title {
   height: 30px;
   padding: 5px 0;
   text-align: center;
-  color: rgba(245,119,70,255);
+  color: #C33817;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 1px;
@@ -1226,7 +1258,7 @@ h1.demo-title {
   bottom: 0;
   width: 0;
   height: 0;
-  border-bottom: 10px solid rgba(245,119,70,255);
+  border-bottom: 10px solid #C33817;
 } */
 
 .pricing-table .ptable-status span::before {
@@ -1296,7 +1328,7 @@ h1.demo-title {
 /* .pricing-table .ptable-action a {
   display: inline-block;
   padding: 10px 20px;
-  color: rgba(245,119,70,255);
+  color: #C33817;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 2px;
@@ -1306,16 +1338,16 @@ h1.demo-title {
 
 /* .pricing-table .ptable-action a:hover {
   color: #2A293E;
-  background: rgba(245,119,70,255);
+  background: #C33817;
 } */
 /* 
 .pricing-table .ptable-item.featured-item .ptable-action a {
   color: #2A293E;
-  background: rgba(245,119,70,255);
+  background: #C33817;
 }
 
 .pricing-table .ptable-item.featured-item .ptable-action a:hover {
-  color: rgba(245,119,70,255);
+  color: #C33817;
   background: #2A293E;
 } */
 
@@ -1349,7 +1381,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(245,119,70,255);
+	background-color: #C33817;
 	z-index: -1;
 	border-radius: 0.35rem;
 	border: solid 2px black;
@@ -1449,7 +1481,7 @@ html, body{
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: rgba(245,119,70,255);
+  background: #C33817;
   border-radius: 1.625rem;
 }
 .learn-more .circle .icon {
@@ -1487,7 +1519,7 @@ html, body{
   bottom: 0;
   padding: 0.75rem 0;
   margin: 0 0 0 1.85rem;
-  color: rgba(245,119,70,255);
+  color: #C33817;
   font-weight: 700;
   line-height: 1.6;
   text-align: center;
